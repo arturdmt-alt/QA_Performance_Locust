@@ -18,10 +18,11 @@ Professional performance testing framework using Python and Locust for load, str
 - **Throughput:** 24.6 req/sec
 - **Total Requests:** 4479
 - **Error Rate:** 0%
-- **Conclusion:** System handles 50 concurrent users smoothly with excellent response times. All endpoints perform within acceptable thresholds.
+- **Conclusion:** System handles 50 concurrent users smoothly with excellent response times. 
+All endpoints perform within acceptable thresholds.
 
-![Load Test Charts](reports/charts/reportscharts_load_test_charts.jpg)
 ![Load Test Stats](reports/charts/reports_charts_load_test_stats.jpg)
+![Load Test Charts](reports/charts/reportscharts_load_test_charts.jpg) 
 
 ---
 
@@ -41,8 +42,8 @@ Professional performance testing framework using Python and Locust for load, str
 - **Failures:** 225 (0.77% error rate)
 - **Conclusion:** System handles 100 concurrent users effectively with <1% error rate and excellent response times. Performance remains stable under stress with graceful degradation.
 
-![Stress Test Charts](reports/charts/stress_test_charts.jpg)
 ![Stress Test Stats](reports/charts/stress_test_stats.jpg)
+![Stress Test Charts](reports/charts/stress_test_charts.jpg) 
 
 ---
 
@@ -62,8 +63,8 @@ Professional performance testing framework using Python and Locust for load, str
 - **Breaking Point:** 200 concurrent users
 - **Conclusion:** API has clear capacity limits. System degrades significantly above 100 concurrent users with high failure rates and severe response time degradation. **Recommendation:** Maximum 100 concurrent users for production to maintain <1% error rate and sub-second response times.
 
-![Spike Test Charts](reports/charts/spike_test_charts.jpg)
 ![Spike Test Stats](reports/charts/spike_test_stats.jpg)
+![Spike Test Charts](reports/charts/spike_test_charts.jpg) 
 
 ---
 
@@ -126,12 +127,10 @@ QA_Performance_Locust/
 │   └── charts/              # Test result screenshots
 ├── config/                  # Test configuration
 │   └── test_config.py       # Thresholds and settings
-├── utils/                   # Helper utilities
-│   └── report_analyzer.py   # Results analysis
 ├── venv/                    # Virtual environment (not in git)
 ├── requirements.txt         # Python dependencies
 ├── .gitignore
-└── README.md
+└── README.md 
 ```
 
 ## Key Metrics Explained

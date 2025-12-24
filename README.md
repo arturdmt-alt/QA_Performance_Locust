@@ -1,5 +1,7 @@
 # Performance Testing Framework - Locust
 
+[![Performance Tests Syntax Check](https://github.com/arturdmt-alt/QA_Performance_Locust/actions/workflows/tests.yml/badge.svg)](https://github.com/arturdmt-alt/QA_Performance_Locust/actions/workflows/tests.yml) 
+
 Professional performance testing framework using Python and Locust for load, stress, and spike testing.
 
 ## Test Results Summary

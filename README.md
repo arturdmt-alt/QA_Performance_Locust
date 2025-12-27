@@ -26,8 +26,8 @@ Professional performance testing framework using Python and Locust for load, str
 
 **Conclusion:** System handles 50 concurrent users smoothly with excellent response times. All endpoints perform within acceptable thresholds.
 
-![Load Test Stats](reports/charts/load-test-stats.jpg)
-![Load Test Charts](reports/charts/load-test-charts.jpg)
+![Load Test Stats](reports/charts/load_test_stats.jpg)
+![Load Test Charts](reports/charts/load_test_charts.jpg)
 
 ---
 
@@ -49,8 +49,8 @@ Professional performance testing framework using Python and Locust for load, str
 
 **Conclusion:** System handles 100 concurrent users effectively with <1% error rate and excellent response times. Performance remains stable under stress with graceful degradation.
 
-![Stress Test Stats](reports/charts/stress-test-stats.jpg)
-![Stress Test Charts](reports/charts/stress-test-charts.jpg)
+![Stress Test Stats](reports/charts/stress_test_stats.jpg)
+![Stress Test Charts](reports/charts/stress_test_charts.jpg)
 
 ---
 
@@ -72,8 +72,8 @@ Professional performance testing framework using Python and Locust for load, str
 
 **Conclusion:** API has clear capacity limits. System degrades significantly above 100 concurrent users with high failure rates and severe response time degradation. Recommendation: Maximum 100 concurrent users for production to maintain <1% error rate and sub-second response times.
 
-![Spike Test Stats](reports/charts/spike-test-stats.jpg)
-![Spike Test Charts](reports/charts/spike-test-charts.jpg)
+![Spike Test Stats](reports/charts/spike_test_stats.jpg)
+![Spike Test Charts](reports/charts/spike_test_charts.jpg)
 
 ---
 

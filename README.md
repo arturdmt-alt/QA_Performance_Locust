@@ -26,8 +26,8 @@ Professional performance testing framework using Python and Locust for load, str
 
 **Conclusion:** System handles 50 concurrent users smoothly with excellent response times. All endpoints perform within acceptable thresholds.
 
-![Load Test Stats](reports/charts/load_test_stats.jpg)
-![Load Test Charts](reports/charts/load_test_charts.jpg)
+![Load Test Stats](reports/charts/reports_charts_load_test_stats.jpg)
+![Load Test Charts](reports/charts/reportscharts_load_test_charts.jpg)
 
 ---
 

@@ -82,7 +82,7 @@ Professional performance testing framework using Python and Locust for load, str
 * Python: 3.11.9
 * Locust: 2.32.0
 * Requests: 2.32.2
-* Target API: JSONPlaceholder (https://jsonplaceholder.typicode.com)
+* Target API: [JSONPlaceholder](https://jsonplaceholder.typicode.com) 
 * CI/CD: GitHub Actions
 
 ---
